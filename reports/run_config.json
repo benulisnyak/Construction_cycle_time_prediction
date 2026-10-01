@@ -1,0 +1,51 @@
+{
+  "history": "data/build_history.csv",
+  "homes": "data/homes_to_predict.csv",
+  "raw_history_rows": 4684,
+  "eligible_training_rows": 4077,
+  "prediction_rows": 578,
+  "folds": 5,
+  "model_parameters": {
+    "iterations": 600,
+    "depth": 5,
+    "learning_rate": 0.03,
+    "random_seed": 42
+  },
+  "features": [
+    "beds",
+    "baths",
+    "half_baths",
+    "stories",
+    "lot_size_sqft",
+    "garage_size",
+    "basement_type",
+    "lot_type",
+    "is_spec_home",
+    "start_season",
+    "sqft",
+    "community",
+    "metro",
+    "permit_authority",
+    "product_line",
+    "start_month",
+    "days_sale_to_start",
+    "permit_days",
+    "plan_code",
+    "site_manager",
+    "permit_to_start_days",
+    "selected_options_value"
+  ],
+  "categorical_features": [
+    "garage_size",
+    "basement_type",
+    "lot_type",
+    "start_season",
+    "community",
+    "metro",
+    "permit_authority",
+    "plan_code",
+    "site_manager",
+    "product_line"
+  ],
+  "manager_analysis": true
+}
